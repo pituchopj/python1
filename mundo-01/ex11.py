@@ -1,0 +1,5 @@
+altura=float(input('Digite a altura da parede na sua frente:'))
+largura=float(input('Digite a largura da parade na sua frente:'))
+area=(altura * largura)
+qt_tinta=(area/2)
+print(f'A parede tem {altura}M e {largura}M\n Sua área é de {area}M\n Será necessário para pintar essa parede {qt_tinta}L de tinta')
