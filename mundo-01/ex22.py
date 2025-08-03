@@ -1,0 +1,7 @@
+nome=input('Digite seu nome completo:')
+nome_sem_espaços=nome.replace(' ', '')
+print('Analisando...')
+print('Seu nome em maiusculas é {}'.format(nome.upper())) 
+print('Seu nome em minusculas é {}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras' .format(len(nome_sem_espaços)))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
