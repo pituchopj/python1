@@ -1,0 +1,6 @@
+n1=int(input('Digite um número: '))
+n2=int(input('Digite o segundo número: '))
+n3=int(input('Digite o terceiro e ultimo número: '))
+maior= max(n1,n2,n3)
+menor=min(n1,n2,n3)
+print(f'Dentre os números {n1}, {n2}, {n3}. O maior número é {maior} e o menor é {menor}')
