@@ -1,0 +1,7 @@
+num1=float(input('Digite um número: '))
+num2=float(input('Digite o segundo número: '))
+num3=float(input('Digite o terceiro número: '))
+conj=int(num1,num2,num3)
+maior=max(int(num1,num2,num3))
+menor=min(int(num1,num2,num3))
+print (f'Dentre os números {conj}, o maior é o {maior} e o menor é o {menor}')
